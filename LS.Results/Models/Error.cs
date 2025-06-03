@@ -4,6 +4,6 @@ namespace LS.Results.Models;
 
 public class Error(string code, string message)
 {
-    public string Code { get; set; } = code;
-    public string Message { get; set; } = message;
+    public string Code { get; } = code;
+    public string Message { get; } = message;
 }
